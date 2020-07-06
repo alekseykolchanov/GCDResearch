@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96A799B724B39369005E56DB /* GCDETonsOfTasksOnOneSerialQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A799B524B39369005E56DB /* GCDETonsOfTasksOnOneSerialQueueViewController.m */; };
+		96BFFB5B24AE4C83008B7776 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB5A24AE4C83008B7776 /* AppDelegate.m */; };
+		96BFFB5E24AE4C83008B7776 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB5D24AE4C83008B7776 /* SceneDelegate.m */; };
+		96BFFB6424AE4C83008B7776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96BFFB6224AE4C83008B7776 /* Main.storyboard */; };
+		96BFFB6624AE4C86008B7776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BFFB6524AE4C86008B7776 /* Assets.xcassets */; };
+		96BFFB6924AE4C86008B7776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96BFFB6724AE4C86008B7776 /* LaunchScreen.storyboard */; };
+		96BFFB6C24AE4C86008B7776 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB6B24AE4C86008B7776 /* main.m */; };
+		96BFFB7524AE59E4008B7776 /* GCDEFibonacci.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB7424AE59E4008B7776 /* GCDEFibonacci.c */; };
+		96BFFB7A24AE5D79008B7776 /* GCDETonsOfTasksOnGlobalQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB7924AE5D79008B7776 /* GCDETonsOfTasksOnGlobalQueueViewController.m */; };
+		96BFFB7E24AE5DB4008B7776 /* GCDETestsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB7D24AE5DB4008B7776 /* GCDETestsListViewController.m */; };
+		96BFFB8224AE5E30008B7776 /* GCDETonsOfTasksOnGlobalQueueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB8124AE5E30008B7776 /* GCDETonsOfTasksOnGlobalQueueTest.m */; };
+		96BFFB8624AE8B0D008B7776 /* GCDEStopWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB8524AE8B0D008B7776 /* GCDEStopWatch.m */; };
+		96BFFB8D24AE8F4A008B7776 /* GCDETonsOfTasksOnPrivateConcurrentQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB8C24AE8F4A008B7776 /* GCDETonsOfTasksOnPrivateConcurrentQueueViewController.m */; };
+		96BFFB9424AE964F008B7776 /* GCDETonsOfTasksEachOnSeparateSerialQueueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB9324AE964F008B7776 /* GCDETonsOfTasksEachOnSeparateSerialQueueTest.m */; };
+		96BFFB9524AE9980008B7776 /* GCDETonsOfTasksEachOnSeparateSerialQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB8F24AE956E008B7776 /* GCDETonsOfTasksEachOnSeparateSerialQueueViewController.m */; };
+		96BFFB9D24AEA268008B7776 /* GCDESomeBigTasksSerialVsConcurrentQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB9924AEA03E008B7776 /* GCDESomeBigTasksSerialVsConcurrentQueueViewController.m */; };
+		96BFFBA124AEABDB008B7776 /* GCDETargetSerialQueueDeadlockBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFBA024AEABDB008B7776 /* GCDETargetSerialQueueDeadlockBaseModel.m */; };
+		96BFFBA424AEAFA7008B7776 /* GCDETargetSerialQueueDeadlockNextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFBA324AEAFA7008B7776 /* GCDETargetSerialQueueDeadlockNextModel.m */; };
+		96BFFBA724AEB14E008B7776 /* GCDETargetSerialQueueDeadlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFBA624AEB14E008B7776 /* GCDETargetSerialQueueDeadlockViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96A799B524B39369005E56DB /* GCDETonsOfTasksOnOneSerialQueueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDETonsOfTasksOnOneSerialQueueViewController.m; sourceTree = "<group>"; };
+		96A799B624B39369005E56DB /* GCDETonsOfTasksOnOneSerialQueueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDETonsOfTasksOnOneSerialQueueViewController.h; sourceTree = "<group>"; };
+		96BFFB5624AE4C83008B7776 /* GCDExperiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCDExperiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BFFB5924AE4C83008B7776 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96BFFB5A24AE4C83008B7776 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96BFFB5C24AE4C83008B7776 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		96BFFB5D24AE4C83008B7776 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		96BFFB6324AE4C83008B7776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96BFFB6524AE4C86008B7776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96BFFB6824AE4C86008B7776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96BFFB6A24AE4C86008B7776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96BFFB6B24AE4C86008B7776 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96BFFB7324AE59E4008B7776 /* GCDEFibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDEFibonacci.h; sourceTree = "<group>"; };
+		96BFFB7424AE59E4008B7776 /* GCDEFibonacci.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GCDEFibonacci.c; sourceTree = "<group>"; };
+		96BFFB7824AE5D79008B7776 /* GCDETonsOfTasksOnGlobalQueueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDETonsOfTasksOnGlobalQueueViewController.h; sourceTree = "<group>"; };
+		96BFFB7924AE5D79008B7776 /* GCDETonsOfTasksOnGlobalQueueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDETonsOfTasksOnGlobalQueueViewController.m; sourceTree = "<group>"; };
+		96BFFB7C24AE5DB4008B7776 /* GCDETestsListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDETestsListViewController.h; sourceTree = "<group>"; };
+		96BFFB7D24AE5DB4008B7776 /* GCDETestsListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDETestsListViewController.m; sourceTree = "<group>"; };
+		96BFFB8024AE5E30008B7776 /* GCDETonsOfTasksOnGlobalQueueTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDETonsOfTasksOnGlobalQueueTest.h; sourceTree = "<group>"; };
+		96BFFB8124AE5E30008B7776 /* GCDETonsOfTasksOnGlobalQueueTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDETonsOfTasksOnGlobalQueueTest.m; sourceTree = "<group>"; };
+		96BFFB8324AE5E79008B7776 /* GCDETestStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDETestStatus.h; sourceTree = "<group>"; };
+		96BFFB8424AE8B0D008B7776 /* GCDEStopWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDEStopWatch.h; sourceTree = "<group>"; };
+		96BFFB8524AE8B0D008B7776 /* GCDEStopWatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDEStopWatch.m; sourceTree = "<group>"; };
+		96BFFB8B24AE8F4A008B7776 /* GCDETonsOfTasksOnPrivateConcurrentQueueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDETonsOfTasksOnPrivateConcurrentQueueViewController.h; sourceTree = "<group>"; };
+		96BFFB8C24AE8F4A008B7776 /* GCDETonsOfTasksOnPrivateConcurrentQueueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDETonsOfTasksOnPrivateConcurrentQueueViewController.m; sourceTree = "<group>"; };
+		96BFFB8F24AE956E008B7776 /* GCDETonsOfTasksEachOnSeparateSerialQueueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDETonsOfTasksEachOnSeparateSerialQueueViewController.m; sourceTree = "<group>"; };
+		96BFFB9024AE956E008B7776 /* GCDETonsOfTasksEachOnSeparateSerialQueueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDETonsOfTasksEachOnSeparateSerialQueueViewController.h; sourceTree = "<group>"; };
+		96BFFB9224AE964F008B7776 /* GCDETonsOfTasksEachOnSeparateSerialQueueTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDETonsOfTasksEachOnSeparateSerialQueueTest.h; sourceTree = "<group>"; };
+		96BFFB9324AE964F008B7776 /* GCDETonsOfTasksEachOnSeparateSerialQueueTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDETonsOfTasksEachOnSeparateSerialQueueTest.m; sourceTree = "<group>"; };
+		96BFFB9924AEA03E008B7776 /* GCDESomeBigTasksSerialVsConcurrentQueueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDESomeBigTasksSerialVsConcurrentQueueViewController.m; sourceTree = "<group>"; };
+		96BFFB9A24AEA03E008B7776 /* GCDESomeBigTasksSerialVsConcurrentQueueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDESomeBigTasksSerialVsConcurrentQueueViewController.h; sourceTree = "<group>"; };
+		96BFFB9F24AEABDB008B7776 /* GCDETargetSerialQueueDeadlockBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDETargetSerialQueueDeadlockBaseModel.h; sourceTree = "<group>"; };
+		96BFFBA024AEABDB008B7776 /* GCDETargetSerialQueueDeadlockBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDETargetSerialQueueDeadlockBaseModel.m; sourceTree = "<group>"; };
+		96BFFBA224AEAFA7008B7776 /* GCDETargetSerialQueueDeadlockNextModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDETargetSerialQueueDeadlockNextModel.h; sourceTree = "<group>"; };
+		96BFFBA324AEAFA7008B7776 /* GCDETargetSerialQueueDeadlockNextModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDETargetSerialQueueDeadlockNextModel.m; sourceTree = "<group>"; };
+		96BFFBA524AEB14E008B7776 /* GCDETargetSerialQueueDeadlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDETargetSerialQueueDeadlockViewController.h; sourceTree = "<group>"; };
+		96BFFBA624AEB14E008B7776 /* GCDETargetSerialQueueDeadlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDETargetSerialQueueDeadlockViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96BFFB5324AE4C83008B7776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96A799B424B39317005E56DB /* TonsOfTasksOnOneSerialQueue */ = {
+			isa = PBXGroup;
+			children = (
+				96A799B624B39369005E56DB /* GCDETonsOfTasksOnOneSerialQueueViewController.h */,
+				96A799B524B39369005E56DB /* GCDETonsOfTasksOnOneSerialQueueViewController.m */,
+			);
+			path = TonsOfTasksOnOneSerialQueue;
+			sourceTree = "<group>";
+		};
+		96BFFB4D24AE4C83008B7776 = {
+			isa = PBXGroup;
+			children = (
+				96BFFB5824AE4C83008B7776 /* GCDExperiments */,
+				96BFFB5724AE4C83008B7776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96BFFB5724AE4C83008B7776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96BFFB5624AE4C83008B7776 /* GCDExperiments.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96BFFB5824AE4C83008B7776 /* GCDExperiments */ = {
+			isa = PBXGroup;
+			children = (
+				96BFFB7B24AE5D8F008B7776 /* TestsListViewController */,
+				96BFFB7624AE5B55008B7776 /* Tests */,
+				96BFFB7224AE59AE008B7776 /* Helpers */,
+				96BFFB5924AE4C83008B7776 /* AppDelegate.h */,
+				96BFFB5A24AE4C83008B7776 /* AppDelegate.m */,
+				96BFFB5C24AE4C83008B7776 /* SceneDelegate.h */,
+				96BFFB5D24AE4C83008B7776 /* SceneDelegate.m */,
+				96BFFB6224AE4C83008B7776 /* Main.storyboard */,
+				96BFFB6524AE4C86008B7776 /* Assets.xcassets */,
+				96BFFB6724AE4C86008B7776 /* LaunchScreen.storyboard */,
+				96BFFB6A24AE4C86008B7776 /* Info.plist */,
+				96BFFB6B24AE4C86008B7776 /* main.m */,
+			);
+			path = GCDExperiments;
+			sourceTree = "<group>";
+		};
+		96BFFB7224AE59AE008B7776 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				96BFFB7324AE59E4008B7776 /* GCDEFibonacci.h */,
+				96BFFB7424AE59E4008B7776 /* GCDEFibonacci.c */,
+				96BFFB8324AE5E79008B7776 /* GCDETestStatus.h */,
+				96BFFB8424AE8B0D008B7776 /* GCDEStopWatch.h */,
+				96BFFB8524AE8B0D008B7776 /* GCDEStopWatch.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		96BFFB7624AE5B55008B7776 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				96A799B424B39317005E56DB /* TonsOfTasksOnOneSerialQueue */,
+				96BFFB9E24AEABAF008B7776 /* TargetSerialQueueDeadlock */,
+				96BFFB9624AE9FC1008B7776 /* SomeBigTasksSerialVsConcurrentQueue */,
+				96BFFB8E24AE94F8008B7776 /* TonsOfTasksEachOnSeparateSerialQueue */,
+				96BFFB8724AE8EA6008B7776 /* TonsOfTasksOnPrivateConcurrentQueue */,
+				96BFFB7724AE5D30008B7776 /* TonsOfTasksOnGlobalQueue */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		96BFFB7724AE5D30008B7776 /* TonsOfTasksOnGlobalQueue */ = {
+			isa = PBXGroup;
+			children = (
+				96BFFB7824AE5D79008B7776 /* GCDETonsOfTasksOnGlobalQueueViewController.h */,
+				96BFFB7924AE5D79008B7776 /* GCDETonsOfTasksOnGlobalQueueViewController.m */,
+				96BFFB8024AE5E30008B7776 /* GCDETonsOfTasksOnGlobalQueueTest.h */,
+				96BFFB8124AE5E30008B7776 /* GCDETonsOfTasksOnGlobalQueueTest.m */,
+			);
+			path = TonsOfTasksOnGlobalQueue;
+			sourceTree = "<group>";
+		};
+		96BFFB7B24AE5D8F008B7776 /* TestsListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				96BFFB7C24AE5DB4008B7776 /* GCDETestsListViewController.h */,
+				96BFFB7D24AE5DB4008B7776 /* GCDETestsListViewController.m */,
+			);
+			path = TestsListViewController;
+			sourceTree = "<group>";
+		};
+		96BFFB8724AE8EA6008B7776 /* TonsOfTasksOnPrivateConcurrentQueue */ = {
+			isa = PBXGroup;
+			children = (
+				96BFFB8B24AE8F4A008B7776 /* GCDETonsOfTasksOnPrivateConcurrentQueueViewController.h */,
+				96BFFB8C24AE8F4A008B7776 /* GCDETonsOfTasksOnPrivateConcurrentQueueViewController.m */,
+			);
+			path = TonsOfTasksOnPrivateConcurrentQueue;
+			sourceTree = "<group>";
+		};
+		96BFFB8E24AE94F8008B7776 /* TonsOfTasksEachOnSeparateSerialQueue */ = {
+			isa = PBXGroup;
+			children = (
+				96BFFB9224AE964F008B7776 /* GCDETonsOfTasksEachOnSeparateSerialQueueTest.h */,
+				96BFFB9324AE964F008B7776 /* GCDETonsOfTasksEachOnSeparateSerialQueueTest.m */,
+				96BFFB9024AE956E008B7776 /* GCDETonsOfTasksEachOnSeparateSerialQueueViewController.h */,
+				96BFFB8F24AE956E008B7776 /* GCDETonsOfTasksEachOnSeparateSerialQueueViewController.m */,
+			);
+			path = TonsOfTasksEachOnSeparateSerialQueue;
+			sourceTree = "<group>";
+		};
+		96BFFB9624AE9FC1008B7776 /* SomeBigTasksSerialVsConcurrentQueue */ = {
+			isa = PBXGroup;
+			children = (
+				96BFFB9A24AEA03E008B7776 /* GCDESomeBigTasksSerialVsConcurrentQueueViewController.h */,
+				96BFFB9924AEA03E008B7776 /* GCDESomeBigTasksSerialVsConcurrentQueueViewController.m */,
+			);
+			path = SomeBigTasksSerialVsConcurrentQueue;
+			sourceTree = "<group>";
+		};
+		96BFFB9E24AEABAF008B7776 /* TargetSerialQueueDeadlock */ = {
+			isa = PBXGroup;
+			children = (
+				96BFFB9F24AEABDB008B7776 /* GCDETargetSerialQueueDeadlockBaseModel.h */,
+				96BFFBA024AEABDB008B7776 /* GCDETargetSerialQueueDeadlockBaseModel.m */,
+				96BFFBA224AEAFA7008B7776 /* GCDETargetSerialQueueDeadlockNextModel.h */,
+				96BFFBA324AEAFA7008B7776 /* GCDETargetSerialQueueDeadlockNextModel.m */,
+				96BFFBA524AEB14E008B7776 /* GCDETargetSerialQueueDeadlockViewController.h */,
+				96BFFBA624AEB14E008B7776 /* GCDETargetSerialQueueDeadlockViewController.m */,
+			);
+			path = TargetSerialQueueDeadlock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96BFFB5524AE4C83008B7776 /* GCDExperiments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96BFFB6F24AE4C86008B7776 /* Build configuration list for PBXNativeTarget "GCDExperiments" */;
+			buildPhases = (
+				96BFFB5224AE4C83008B7776 /* Sources */,
+				96BFFB5324AE4C83008B7776 /* Frameworks */,
+				96BFFB5424AE4C83008B7776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCDExperiments;
+			productName = GCDExperiments;
+			productReference = 96BFFB5624AE4C83008B7776 /* GCDExperiments.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96BFFB4E24AE4C83008B7776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GCDE;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Aleksei Kolchanov";
+				TargetAttributes = {
+					96BFFB5524AE4C83008B7776 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 96BFFB5124AE4C83008B7776 /* Build configuration list for PBXProject "GCDExperiments" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96BFFB4D24AE4C83008B7776;
+			productRefGroup = 96BFFB5724AE4C83008B7776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96BFFB5524AE4C83008B7776 /* GCDExperiments */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96BFFB5424AE4C83008B7776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BFFB6924AE4C86008B7776 /* LaunchScreen.storyboard in Resources */,
+				96BFFB6624AE4C86008B7776 /* Assets.xcassets in Resources */,
+				96BFFB6424AE4C83008B7776 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96BFFB5224AE4C83008B7776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BFFB9424AE964F008B7776 /* GCDETonsOfTasksEachOnSeparateSerialQueueTest.m in Sources */,
+				96BFFB8D24AE8F4A008B7776 /* GCDETonsOfTasksOnPrivateConcurrentQueueViewController.m in Sources */,
+				96BFFB5B24AE4C83008B7776 /* AppDelegate.m in Sources */,
+				96BFFBA124AEABDB008B7776 /* GCDETargetSerialQueueDeadlockBaseModel.m in Sources */,
+				96BFFB7E24AE5DB4008B7776 /* GCDETestsListViewController.m in Sources */,
+				96BFFB9524AE9980008B7776 /* GCDETonsOfTasksEachOnSeparateSerialQueueViewController.m in Sources */,
+				96BFFB9D24AEA268008B7776 /* GCDESomeBigTasksSerialVsConcurrentQueueViewController.m in Sources */,
+				96BFFBA424AEAFA7008B7776 /* GCDETargetSerialQueueDeadlockNextModel.m in Sources */,
+				96BFFB8624AE8B0D008B7776 /* GCDEStopWatch.m in Sources */,
+				96BFFB8224AE5E30008B7776 /* GCDETonsOfTasksOnGlobalQueueTest.m in Sources */,
+				96BFFB6C24AE4C86008B7776 /* main.m in Sources */,
+				96BFFB5E24AE4C83008B7776 /* SceneDelegate.m in Sources */,
+				96BFFB7524AE59E4008B7776 /* GCDEFibonacci.c in Sources */,
+				96BFFB7A24AE5D79008B7776 /* GCDETonsOfTasksOnGlobalQueueViewController.m in Sources */,
+				96BFFBA724AEB14E008B7776 /* GCDETargetSerialQueueDeadlockViewController.m in Sources */,
+				96A799B724B39369005E56DB /* GCDETonsOfTasksOnOneSerialQueueViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96BFFB6224AE4C83008B7776 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96BFFB6324AE4C83008B7776 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96BFFB6724AE4C86008B7776 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96BFFB6824AE4C86008B7776 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96BFFB6D24AE4C86008B7776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96BFFB6E24AE4C86008B7776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96BFFB7024AE4C86008B7776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = EQHXZ8M8AV;
+				INFOPLIST_FILE = GCDExperiments/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.gcd-experiments.GCDExperiments";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Google Development";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96BFFB7124AE4C86008B7776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = EQHXZ8M8AV;
+				INFOPLIST_FILE = GCDExperiments/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.google.gcd-experiments.GCDExperiments";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Google Development";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96BFFB5124AE4C83008B7776 /* Build configuration list for PBXProject "GCDExperiments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BFFB6D24AE4C86008B7776 /* Debug */,
+				96BFFB6E24AE4C86008B7776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96BFFB6F24AE4C86008B7776 /* Build configuration list for PBXNativeTarget "GCDExperiments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BFFB7024AE4C86008B7776 /* Debug */,
+				96BFFB7124AE4C86008B7776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96BFFB4E24AE4C83008B7776 /* Project object */;
+}
