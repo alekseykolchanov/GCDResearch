@@ -23,6 +23,13 @@
 
 #import "GCDETonsOfTasksOnOneSerialQueueViewController.h"
 
+#import "GCDETonsOfTasksEachOnNewEternalSerialQueueViewController.h"
+#import "GCDETonsOfTasksEachOnNewEternalSerialQueueTest.h"
+
+#import "GCDETonsOfTasksEachOnReusableEternalSerialQueueViewController.h"
+#import "GCDETonsOfTasksEachOnReusableEternalSerialQueueTest.h"
+
+
 @interface GCDETestsListViewController ()
 
 @end
@@ -36,6 +43,10 @@
   GCDETonsOfTasksOnGlobalQueueTest *_someTasksOnConcurrentQueueTestPart1;
 
   GCDETonsOfTasksOnGlobalQueueTest *_tonsOfTasksOnSerialQueueTest;
+
+  GCDETonsOfTasksEachOnNewEternalSerialQueueTest *_tonsOfTasksEachOnEternalSerialQueue;
+
+  GCDETonsOfTasksEachOnReusableEternalSerialQueueTest *_tonsOfTasksEachOnEternalReusableSerialQueue;
 }
 
 - (void)viewDidLoad {
@@ -47,30 +58,38 @@
 - (void)createTests {
 
   _tonsOfTasksOnGlobalQueueTest = [[GCDETonsOfTasksOnGlobalQueueTest alloc]
-                                   initWithFibonacciN:10000000
-                                   numberOfTasks:10000];
+                                   initWithFibonacciN:1000000
+                                   numberOfTasks:100000];
 
   _tonsOfTasksOnPrivateConcurrentQueueTest = [[GCDETonsOfTasksOnGlobalQueueTest alloc]
-                                              initWithFibonacciN:10000000
-                                              numberOfTasks:10000];
+                                              initWithFibonacciN:1000000
+                                              numberOfTasks:100000];
 
   _tonsOfTasksEachOnSeparateSerialQueueTest = [[GCDETonsOfTasksEachOnSeparateSerialQueueTest alloc]
                                                initWithFibonacciN:10000000
-                                               numberOfTasks:1000];
+                                               numberOfTasks:10000];
 
 
 
   _someTasksOnConcurrentQueueTestPart0 = [[GCDETonsOfTasksOnGlobalQueueTest alloc]
-                                          initWithFibonacciN:100000000
+                                          initWithFibonacciN:10000000
                                           numberOfTasks:10];
 
   _someTasksOnConcurrentQueueTestPart1 = [[GCDETonsOfTasksOnGlobalQueueTest alloc]
-                                          initWithFibonacciN:100000000
+                                          initWithFibonacciN:10000000
                                           numberOfTasks:10];
 
   _tonsOfTasksOnSerialQueueTest = [[GCDETonsOfTasksOnGlobalQueueTest alloc]
-                                   initWithFibonacciN:1000000
+                                   initWithFibonacciN:10000000
                                    numberOfTasks:1000];
+
+  _tonsOfTasksEachOnEternalSerialQueue = [[GCDETonsOfTasksEachOnNewEternalSerialQueueTest alloc]
+                                          initWithFibonacciN:10000000
+                                          numberOfTasks:10000];
+
+  _tonsOfTasksEachOnEternalReusableSerialQueue = [[GCDETonsOfTasksEachOnReusableEternalSerialQueueTest alloc]
+                                                  initWithFibonacciN:1000000
+                                                  numberOfTasks:10000];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
@@ -88,10 +107,17 @@
 
     [(GCDETonsOfTasksOnOneSerialQueueViewController *)segue.destinationViewController setTest:_tonsOfTasksOnSerialQueueTest];
 
-  }else if ([segue.identifier isEqualToString: @"ShowTonsOfTasksEachOnSerialQueueSeque"]) {
+  } else if ([segue.identifier isEqualToString: @"ShowTonsOfTasksEachOnSerialQueueSeque"]) {
 
      [(GCDETonsOfTasksEachOnSeparateSerialQueueViewController *)segue.destinationViewController setTest:_tonsOfTasksEachOnSeparateSerialQueueTest];
 
+  } else if ([segue.identifier isEqualToString: @"ShowTonsOfTasksEachOnEternalSerialQueueSeque"]) {
+
+      [(GCDETonsOfTasksEachOnNewEternalSerialQueueViewController *)segue.destinationViewController setTest:_tonsOfTasksEachOnEternalSerialQueue];
+
+  } else if ([segue.identifier isEqualToString: @"ShowTonsOfTasksEachOnEternalReusableSerialQueueSeque"]) {
+
+    [(GCDETonsOfTasksEachOnReusableEternalSerialQueueViewController *)segue.destinationViewController setTest:_tonsOfTasksEachOnEternalReusableSerialQueue];
   } else if ([segue.identifier isEqualToString: @"ShowSomeBigTasksOnConcurrentVsSerialQueueSeque"]) {
     
     [(GCDESomeBigTasksSerialVsConcurrentQueueViewController *)segue.destinationViewController setTest0:_someTasksOnConcurrentQueueTestPart0];

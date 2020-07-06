@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		96A799B724B39369005E56DB /* GCDETonsOfTasksOnOneSerialQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A799B524B39369005E56DB /* GCDETonsOfTasksOnOneSerialQueueViewController.m */; };
+		96A799BD24B3B919005E56DB /* GCDETonsOfTasksEachOnNewEternalSerialQueueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A799B924B3B919005E56DB /* GCDETonsOfTasksEachOnNewEternalSerialQueueTest.m */; };
+		96A799BE24B3B919005E56DB /* GCDETonsOfTasksEachOnNewEternalSerialQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A799BA24B3B919005E56DB /* GCDETonsOfTasksEachOnNewEternalSerialQueueViewController.m */; };
+		96A799C424B3C14C005E56DB /* GCDETonsOfTasksEachOnReusableEternalSerialQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A799C024B3C14C005E56DB /* GCDETonsOfTasksEachOnReusableEternalSerialQueueViewController.m */; };
+		96A799C524B3C14C005E56DB /* GCDETonsOfTasksEachOnReusableEternalSerialQueueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A799C124B3C14C005E56DB /* GCDETonsOfTasksEachOnReusableEternalSerialQueueTest.m */; };
 		96BFFB5B24AE4C83008B7776 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB5A24AE4C83008B7776 /* AppDelegate.m */; };
 		96BFFB5E24AE4C83008B7776 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB5D24AE4C83008B7776 /* SceneDelegate.m */; };
 		96BFFB6424AE4C83008B7776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96BFFB6224AE4C83008B7776 /* Main.storyboard */; };
@@ -31,6 +35,14 @@
 /* Begin PBXFileReference section */
 		96A799B524B39369005E56DB /* GCDETonsOfTasksOnOneSerialQueueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDETonsOfTasksOnOneSerialQueueViewController.m; sourceTree = "<group>"; };
 		96A799B624B39369005E56DB /* GCDETonsOfTasksOnOneSerialQueueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDETonsOfTasksOnOneSerialQueueViewController.h; sourceTree = "<group>"; };
+		96A799B924B3B919005E56DB /* GCDETonsOfTasksEachOnNewEternalSerialQueueTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDETonsOfTasksEachOnNewEternalSerialQueueTest.m; sourceTree = "<group>"; };
+		96A799BA24B3B919005E56DB /* GCDETonsOfTasksEachOnNewEternalSerialQueueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDETonsOfTasksEachOnNewEternalSerialQueueViewController.m; sourceTree = "<group>"; };
+		96A799BB24B3B919005E56DB /* GCDETonsOfTasksEachOnNewEternalSerialQueueTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDETonsOfTasksEachOnNewEternalSerialQueueTest.h; sourceTree = "<group>"; };
+		96A799BC24B3B919005E56DB /* GCDETonsOfTasksEachOnNewEternalSerialQueueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDETonsOfTasksEachOnNewEternalSerialQueueViewController.h; sourceTree = "<group>"; };
+		96A799C024B3C14C005E56DB /* GCDETonsOfTasksEachOnReusableEternalSerialQueueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDETonsOfTasksEachOnReusableEternalSerialQueueViewController.m; sourceTree = "<group>"; };
+		96A799C124B3C14C005E56DB /* GCDETonsOfTasksEachOnReusableEternalSerialQueueTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDETonsOfTasksEachOnReusableEternalSerialQueueTest.m; sourceTree = "<group>"; };
+		96A799C224B3C14C005E56DB /* GCDETonsOfTasksEachOnReusableEternalSerialQueueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDETonsOfTasksEachOnReusableEternalSerialQueueViewController.h; sourceTree = "<group>"; };
+		96A799C324B3C14C005E56DB /* GCDETonsOfTasksEachOnReusableEternalSerialQueueTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDETonsOfTasksEachOnReusableEternalSerialQueueTest.h; sourceTree = "<group>"; };
 		96BFFB5624AE4C83008B7776 /* GCDExperiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCDExperiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BFFB5924AE4C83008B7776 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96BFFB5A24AE4C83008B7776 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,6 +100,28 @@
 			path = TonsOfTasksOnOneSerialQueue;
 			sourceTree = "<group>";
 		};
+		96A799B824B3B894005E56DB /* TonsOfTasksEachOnNewEternalSerialQueue */ = {
+			isa = PBXGroup;
+			children = (
+				96A799BB24B3B919005E56DB /* GCDETonsOfTasksEachOnNewEternalSerialQueueTest.h */,
+				96A799B924B3B919005E56DB /* GCDETonsOfTasksEachOnNewEternalSerialQueueTest.m */,
+				96A799BC24B3B919005E56DB /* GCDETonsOfTasksEachOnNewEternalSerialQueueViewController.h */,
+				96A799BA24B3B919005E56DB /* GCDETonsOfTasksEachOnNewEternalSerialQueueViewController.m */,
+			);
+			path = TonsOfTasksEachOnNewEternalSerialQueue;
+			sourceTree = "<group>";
+		};
+		96A799BF24B3C0EF005E56DB /* TonsOfTasksEachOnReusableEternalSerialQueue */ = {
+			isa = PBXGroup;
+			children = (
+				96A799C324B3C14C005E56DB /* GCDETonsOfTasksEachOnReusableEternalSerialQueueTest.h */,
+				96A799C124B3C14C005E56DB /* GCDETonsOfTasksEachOnReusableEternalSerialQueueTest.m */,
+				96A799C224B3C14C005E56DB /* GCDETonsOfTasksEachOnReusableEternalSerialQueueViewController.h */,
+				96A799C024B3C14C005E56DB /* GCDETonsOfTasksEachOnReusableEternalSerialQueueViewController.m */,
+			);
+			path = TonsOfTasksEachOnReusableEternalSerialQueue;
+			sourceTree = "<group>";
+		};
 		96BFFB4D24AE4C83008B7776 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +172,8 @@
 		96BFFB7624AE5B55008B7776 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				96A799BF24B3C0EF005E56DB /* TonsOfTasksEachOnReusableEternalSerialQueue */,
+				96A799B824B3B894005E56DB /* TonsOfTasksEachOnNewEternalSerialQueue */,
 				96A799B424B39317005E56DB /* TonsOfTasksOnOneSerialQueue */,
 				96BFFB9E24AEABAF008B7776 /* TargetSerialQueueDeadlock */,
 				96BFFB9624AE9FC1008B7776 /* SomeBigTasksSerialVsConcurrentQueue */,
@@ -289,14 +325,18 @@
 				96BFFB9524AE9980008B7776 /* GCDETonsOfTasksEachOnSeparateSerialQueueViewController.m in Sources */,
 				96BFFB9D24AEA268008B7776 /* GCDESomeBigTasksSerialVsConcurrentQueueViewController.m in Sources */,
 				96BFFBA424AEAFA7008B7776 /* GCDETargetSerialQueueDeadlockNextModel.m in Sources */,
+				96A799BD24B3B919005E56DB /* GCDETonsOfTasksEachOnNewEternalSerialQueueTest.m in Sources */,
 				96BFFB8624AE8B0D008B7776 /* GCDEStopWatch.m in Sources */,
 				96BFFB8224AE5E30008B7776 /* GCDETonsOfTasksOnGlobalQueueTest.m in Sources */,
 				96BFFB6C24AE4C86008B7776 /* main.m in Sources */,
 				96BFFB5E24AE4C83008B7776 /* SceneDelegate.m in Sources */,
 				96BFFB7524AE59E4008B7776 /* GCDEFibonacci.c in Sources */,
 				96BFFB7A24AE5D79008B7776 /* GCDETonsOfTasksOnGlobalQueueViewController.m in Sources */,
+				96A799C524B3C14C005E56DB /* GCDETonsOfTasksEachOnReusableEternalSerialQueueTest.m in Sources */,
 				96BFFBA724AEB14E008B7776 /* GCDETargetSerialQueueDeadlockViewController.m in Sources */,
+				96A799BE24B3B919005E56DB /* GCDETonsOfTasksEachOnNewEternalSerialQueueViewController.m in Sources */,
 				96A799B724B39369005E56DB /* GCDETonsOfTasksOnOneSerialQueueViewController.m in Sources */,
+				96A799C424B3C14C005E56DB /* GCDETonsOfTasksEachOnReusableEternalSerialQueueViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
