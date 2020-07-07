@@ -59,7 +59,7 @@
 
   _tonsOfTasksOnGlobalQueueTest = [[GCDETonsOfTasksOnGlobalQueueTest alloc]
                                    initWithFibonacciN:1000000
-                                   numberOfTasks:100000];
+                                   numberOfTasks:100];
 
   _tonsOfTasksOnPrivateConcurrentQueueTest = [[GCDETonsOfTasksOnGlobalQueueTest alloc]
                                               initWithFibonacciN:1000000

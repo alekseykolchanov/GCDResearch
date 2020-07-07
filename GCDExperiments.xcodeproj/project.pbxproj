@@ -18,7 +18,7 @@
 		96BFFB6624AE4C86008B7776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BFFB6524AE4C86008B7776 /* Assets.xcassets */; };
 		96BFFB6924AE4C86008B7776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96BFFB6724AE4C86008B7776 /* LaunchScreen.storyboard */; };
 		96BFFB6C24AE4C86008B7776 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB6B24AE4C86008B7776 /* main.m */; };
-		96BFFB7524AE59E4008B7776 /* GCDEFibonacci.c in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB7424AE59E4008B7776 /* GCDEFibonacci.c */; };
+		96BFFB7524AE59E4008B7776 /* GCDEFibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB7424AE59E4008B7776 /* GCDEFibonacci.m */; };
 		96BFFB7A24AE5D79008B7776 /* GCDETonsOfTasksOnGlobalQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB7924AE5D79008B7776 /* GCDETonsOfTasksOnGlobalQueueViewController.m */; };
 		96BFFB7E24AE5DB4008B7776 /* GCDETestsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB7D24AE5DB4008B7776 /* GCDETestsListViewController.m */; };
 		96BFFB8224AE5E30008B7776 /* GCDETonsOfTasksOnGlobalQueueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BFFB8124AE5E30008B7776 /* GCDETonsOfTasksOnGlobalQueueTest.m */; };
@@ -54,7 +54,7 @@
 		96BFFB6A24AE4C86008B7776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96BFFB6B24AE4C86008B7776 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96BFFB7324AE59E4008B7776 /* GCDEFibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDEFibonacci.h; sourceTree = "<group>"; };
-		96BFFB7424AE59E4008B7776 /* GCDEFibonacci.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GCDEFibonacci.c; sourceTree = "<group>"; };
+		96BFFB7424AE59E4008B7776 /* GCDEFibonacci.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDEFibonacci.m; sourceTree = "<group>"; };
 		96BFFB7824AE5D79008B7776 /* GCDETonsOfTasksOnGlobalQueueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDETonsOfTasksOnGlobalQueueViewController.h; sourceTree = "<group>"; };
 		96BFFB7924AE5D79008B7776 /* GCDETonsOfTasksOnGlobalQueueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDETonsOfTasksOnGlobalQueueViewController.m; sourceTree = "<group>"; };
 		96BFFB7C24AE5DB4008B7776 /* GCDETestsListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDETestsListViewController.h; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				96BFFB7324AE59E4008B7776 /* GCDEFibonacci.h */,
-				96BFFB7424AE59E4008B7776 /* GCDEFibonacci.c */,
+				96BFFB7424AE59E4008B7776 /* GCDEFibonacci.m */,
 				96BFFB8324AE5E79008B7776 /* GCDETestStatus.h */,
 				96BFFB8424AE8B0D008B7776 /* GCDEStopWatch.h */,
 				96BFFB8524AE8B0D008B7776 /* GCDEStopWatch.m */,
@@ -330,7 +330,7 @@
 				96BFFB8224AE5E30008B7776 /* GCDETonsOfTasksOnGlobalQueueTest.m in Sources */,
 				96BFFB6C24AE4C86008B7776 /* main.m in Sources */,
 				96BFFB5E24AE4C83008B7776 /* SceneDelegate.m in Sources */,
-				96BFFB7524AE59E4008B7776 /* GCDEFibonacci.c in Sources */,
+				96BFFB7524AE59E4008B7776 /* GCDEFibonacci.m in Sources */,
 				96BFFB7A24AE5D79008B7776 /* GCDETonsOfTasksOnGlobalQueueViewController.m in Sources */,
 				96A799C524B3C14C005E56DB /* GCDETonsOfTasksEachOnReusableEternalSerialQueueTest.m in Sources */,
 				96BFFBA724AEB14E008B7776 /* GCDETargetSerialQueueDeadlockViewController.m in Sources */,
